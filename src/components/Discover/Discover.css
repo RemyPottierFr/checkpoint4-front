@@ -1,0 +1,45 @@
+.Discover {
+  height: calc(100vh - var(--Header-height));
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'Rubik', sans-serif;
+}
+
+.Discover__title {
+  font-size: 28px;
+  color: #005377;
+  font-weight: bold;
+}
+
+.Discover__sub-title {
+  font-size: 26px;
+  text-align: center;
+}
+
+.Discover__sub-title span {
+  color: #F4AF42;
+  font-weight: bold;
+}
+
+.Discover__button {
+  background-color: rgba(244, 175, 66.75);
+  border: none;
+  font-size: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 16px;
+  padding-left: 16px;
+  border-radius: 4px;
+}
+
+.Discover__button a {
+  text-decoration: none;
+  color: rgba(0, 83, 119, .75);
+}
+
+.Discover__button-icon {
+  margin-left: 8px;
+  transform: rotate(-25deg);
+}

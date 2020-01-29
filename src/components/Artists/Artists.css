@@ -1,0 +1,36 @@
+.Artists {
+  height: 100vh;
+  padding-top: var(--Header-height);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.Artists__title {
+  font-size: 28px;
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  color: #F4AF42;
+  margin: 0;
+  padding: 20px;
+}
+
+.Artists__slider {
+  width: calc(100vw - 100px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slick-next::before, .slick-prev::before {
+  color: #F4AF42 !important;
+  font-size: 34px;
+  z-index: 4;
+  text-align: center;
+}
+
+.Artists__slider-image {
+  width: 80%;
+  margin: auto;
+  height: auto;
+}
