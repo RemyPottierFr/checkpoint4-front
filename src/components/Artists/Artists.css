@@ -8,7 +8,7 @@
 }
 
 .Artists__title {
-  font-size: 28px;
+  font-size: 1.75rem;
   font-family: 'Rubik', sans-serif;
   text-align: center;
   color: #F4AF42;
@@ -20,17 +20,71 @@
   width: calc(100vw - 100px);
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 12px;
 }
 
 .slick-next::before, .slick-prev::before {
-  color: #F4AF42 !important;
-  font-size: 34px;
+  color: rgba(0, 83, 119, .75) !important;
+  font-size: 2.125rem;
   z-index: 4;
   text-align: center;
 }
 
+.Artists__slide {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .Artists__slider-image {
-  width: 80%;
-  margin: auto;
+  max-width: 80%;
+  max-height: calc(100vh - var(--Header-height) - 1.75rem - 40px - 20vh);
+  margin-left: auto;
+  margin-right: auto;
   height: auto;
+  z-index: 1;
+}
+
+.Artists__slider--desc {
+  background-color: rgba(0, 83, 119, .25);
+  margin-top: -16px;
+  padding-top: 16px;
+}
+
+.Artists__slider--desc-title {
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Rubik', sans-serif;
+  margin-bottom: 8px;
+}
+
+.Slider__desc-type {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Desc__type-icon {
+  width: 32px;
+  height: 32px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.Desc__type-text {
+  font-size: 16px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.Desc__type-text span {
+  color: #005377;
+  text-transform: uppercase;
+}
+
+.Slider__desc--text {
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 14px;
+  font-family: 'Rubik', sans-serif;
+  color: #005377;
 }
